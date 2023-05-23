@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* .main-image {
+    position: relative;
+    right: 12px;
+} */
+
+.container-fluid {
+    width: 80%;
+    margin: auto;
+    height: 950px;
+}
+
+.row {
+    height: 100%;
+}
+
+
+/* First Column */
+
+
+.linked-icons {
+    display: flex;
+    flex-direction: column;
+    color: rgb(214, 217, 219);;
+}
+
+ul {
+    list-style: none;
+    margin-top: 18%
+}
+
+li {
+    margin-bottom: 6%;
+}
+
+.link-text {
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;    
+    margin-left: 5%;
+    vertical-align: top;
+}
+
+
+/* Second */
+
+
+.main-content-container {
+    border-left: .5px solid grey;
+    border-right: .5px solid grey;
+}
+
+.header {
+    margin-top: 2%;
+}
+
+.post {
+    background-color: white;
+    color: black;
+    height: auto;
+    margin-top: 2%;
+    padding-top: .5%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /* white-space: nowrap; */
+}
+
+/* 
+.fa-solid {
+    width: 100px;
+    height: 100px;
+    color: red;
+    background-color: black;
+    
+    border-radius: 50%;
+}
+ */
+
+.user-pic-container {
+    padding: 2%;
+  
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.user-pic-container {
+    width: 120px;
+    padding: 8px;
+}
+
+.user-picture {
+    background-image: url('profile-pic.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+input[type='file'] {
+   color: transparent;
+   width: 101px;
+   
+}
+
+#upload-pic {
+    margin-top: 8px;
+    
+}
+
+.user-info-container {
+    width: 70%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.handler-name-container {
+    padding-top: 5%;
+}
+
+.trash {
+    margin-left: auto;
+    color: gray;
+}
+
+.trash:hover {
+    color: red;
+}
+
+
+.input-first, .input-last, .input-handler {
+    width: 25%;
+    border: none;
+    outline:none;
+    font-size: 14px;
+    
+}
+
+textarea {
+    width: 90%;
+    
+    resize: none;
+    border: none;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+    outline:none;
+}
+
+.post-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.tweet-btn {
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+
+/* TWEETS POSTED */
+
+
+#tweets-header {
+    margin-top: 2%;
+    border-bottom: .5px solid gray;
+}
+
+.tweets-header {
+    margin-bottom: 3%;
+}
+
+.posted-tweets{
+    height: auto;
+    width: 100%;
+    
+}
+
+.posted-tweet-row {
+    display: flex;
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: .5px solid grey;
+}
+
+
+/* cccccdcdcdcccdcdcdcdcdcccdcdcdcdcdccdcdcccb b b  b b b b */
+.post-flex-wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/* .profile-pic was the class of img tag */
+
+.real-container {
+    margin-right: 2%;
+}
+
+.posted-pic-container{
+    background-image: url('profile-pic.png');
+    background-size: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    width: 55px;
+    height: 55px;
+    
+    
+    border: 1px solid black;
+    border-radius: 50%;
+
+  
+}
+
+
+
+.posted-user-info {
+
+    margin-left: 1%;
+}
+
+.posted-user-name {
+    margin-bottom: 3%;
+}
+
+.posted-user-handler {
+    font-size: 13px;
+    color: gray;
+
+}
+
+.posted-tweet {
+    width: 85%;
+    font-size: 14px;
+    margin-left: 1%;
+}
+
+.posted-reactions {
+    width: 85%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.reaction {
+    margin-right: 10px;
+}
+
+.color1:hover {
+  color: rgb(0, 114, 221);
+}
+
+.color2:hover {
+    color: lightgreen;
+}
+
+  .color3:hover {
+    color: hotpink;
+  }
+
+  .color4:hover {
+    color: blue;
+  }
+
+
+
+
+/* COLUMN 3 STYLES */
+
+.sign-up-container {
+    margin-top: 17%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5%;
+    
+    margin-left: 5%;
+}
+
+.sign-up-header {
+    font-weight: bold;
+}
+
+.sign-up-container button {
+    font-size: 15px;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 50px;
+}
+
+.terms {
+    font-size: .8rem;
+    color: gray;
+}
