@@ -2,11 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     background-color: black;
     color: white;
+    min-width: 1405px;
 }
 
 /* .main-image {
@@ -70,7 +72,7 @@ li {
     height: auto;
     margin-top: 2%;
     padding-top: .5%;
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -153,12 +155,12 @@ input[type='file'] {
 }
 
 textarea {
-    width: 90%;
+    width: 100%;
     
     resize: none;
     border: none;
     border-top: .5px solid black;
-    border-bottom: .5px solid black;
+    /* border-bottom: .5px solid black; */
     outline:none;
 }
 
@@ -169,7 +171,7 @@ textarea {
 }
 
 .tweet-btn {
-    border-radius: 25px;
+    border-radius: 8px;
     margin-left: auto;
     margin-right: 1%;
     margin-bottom: 1%;
@@ -196,7 +198,7 @@ textarea {
 
 .posted-tweet-row {
     display: flex;
-    
+   
     padding-top: 2%;
     padding-bottom: 2%;
     border-bottom: .5px solid grey;

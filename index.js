@@ -201,13 +201,6 @@ function iconClicked(event) {
     
 }
 
-
-
-
-//Mr Producer's first tweet on a real free platform!
-
-// I,m really starting to wish that I had auto copy to this box so every time i write new code i don’t have to keep filling this tweet form out. Eventually I  will probably figure that out!
-
 // setTimeout(() => {
 //     console.log(userFirstName)
 //   }, "9000")
