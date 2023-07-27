@@ -154,12 +154,14 @@ input[type='file'] {
     
 }
 
-textarea {
+.tweet-container {
     width: 100%;
-    
+    border-top: .5px solid black;
+}
+
+textarea {
     resize: none;
     border: none;
-    border-top: .5px solid black;
     /* border-bottom: .5px solid black; */
     outline:none;
 }
