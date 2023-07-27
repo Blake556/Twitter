@@ -160,8 +160,11 @@ input[type='file'] {
 }
 
 textarea {
+    width: 100%;
+    
     resize: none;
     border: none;
+   
     /* border-bottom: .5px solid black; */
     outline:none;
 }
